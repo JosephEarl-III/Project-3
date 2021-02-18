@@ -1,3 +1,79 @@
 @charset "UTF-8";
 /* CSS Document */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'babydollregular', serif;
+}
+img {
+	width: inherit;
+}
+.navbar {
+	background-color: #222B5F!important;
+}
+.navbar-nav {
+	margin-left: auto;
+	margin-right: 0!important;
+}
+.nav-link {
+	color: white!important;
+}
+.navbar-brand {
+	margin-left: -10px;
+}
+#river-top {
+	background-image: url("images/river border top.png");
+	height: 1350px;
+	width: inherit;
+	background-position: center;
+	background-size: cover!important;
+	margin-top: -8px;
+}
+.hero {
+	padding-top: 48px;
+}
+.landingText {
+	margin-top: 72px
+}
+.riverText {
+	margin-left: 40px
+}
+.col-lg-1 {
+	margin: auto;
+	margin-top: 64px;
+}
+.space {
+	height: 229px;
+}
+.downloadButtons {
+	margin-top: 24px;
+}
+#blobSection {
+	background-image: url("images/blob section.png");
+	height: 1120px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.middleText {
+	padding-top: 450px;
+}
+#lowerRiver {
+	background-image: url("images/lower river.png");
+	height: 1900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.whiteHeader {
+	color: white;
+	margin-top: 48px;
+}
+.featureCards {
+	margin-top: 48px;
+}
 
+#childFeature:hover {
+	
+}
+#parentFeature:hover {
+	
+}
