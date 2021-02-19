@@ -15,14 +15,22 @@
     margin-right: 33px !important;
     margin-left: 33px;
 }
-.ml-auto {
+/* .ml-auto {
     margin-left: auto !important;
-}
+} */
 .nav-link {
     font: 28px 'BabyDoll' ;
 }
 .navbar-dark .navbar-nav .nav-link {
     color:white !important;
+}
+.navbar-nav {
+    background-color: orange;
+   float: right;
+}
+#navbarResponsive {
+    background-color: blueviolet;
+    margin-right: 0;
 }
 .active {
     font: 'BabyDoll' bold !important;
@@ -442,17 +450,32 @@ p{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
 
+.tab-show{
+      display: none;  
+}
 /* <---media query---> */
+@media (max-width:1114px){
+ .tab-show{
+     display: inline-block;
+ }
+ .tabText {
+     font: 12px 'BabyDoll';
+ }
+}
 
   @media (max-width:780px){
     .image_section img:first-child{
         display:none;
     }
     .textTab {
-        display: inline-block;
+        /* display: inline-block;
         margin-top: 25px !important;
-        margin-bottom: 25px !important;
+        margin-bottom: 25px !important; */
     }
     .navbar-brand img{
         height: 60px;
