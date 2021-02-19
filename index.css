@@ -10,6 +10,9 @@ p {
 img {
 	width: inherit;
 }
+a {
+	color: white!important;
+}
 .navbar {
 	background-color: #222B5F!important;
 }
@@ -127,7 +130,7 @@ img {
 	margin-left: 24px;
 }
 .reviews {
-	margin-top: 250px
+	margin-top: 150px;
 }
 .reviewTitle {
 	margin-bottom: 40px;
@@ -160,4 +163,7 @@ img {
 }
 .card {
 	border: none;
+}
+.large {
+	font-size: 65px;
 }
