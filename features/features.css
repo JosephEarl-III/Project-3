@@ -1,3 +1,88 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@charset "UTF-8";
+/* CSS Document */
+body {
+    width: 100%;
+}
+.navbar {
+    background-color: #222B5F !important;
+}
+.navbar-collapse{
+    justify-content: space-around !important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    height: 130px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 33px !important;
+    margin-left: 33px;
+}
+.ml-auto {
+    margin-left: auto !important;
+}
+.nav-link {
+    font: 28px 'BabyDoll' ;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:white !important;
+}
+.active {
+    font: 'BabyDoll' bold !important;
+}
+.nav-link:hover{
+
+    text-decoration: underline  #C7CC1A;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    margin-left: 37px;
+}
+.btn-md{
+    background-color:white;
+    font: 22px 'BabyDoll';
+    width: 258px;
+    border-radius: 25px;
+   margin-top: 5%;
+   border-color: white;
+}
+.btn-md:hover {
+    border: 5px solid #C7CC1A;
+    background-color: white;
+    box-shadow: 0 2px 5px white;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 130px;
+    padding-right: auto !important;
+    padding-left: auto !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.my_row {
+height: 529px;
+background-color: #4AC4F3;
+}
+.my_row1 {
+    height: 529px;
+    background-color: white;
+    }
+h1 {
+    font: 40px 'Anja Eliane accent';
+    color: #222B5F;
+}
+p{
+    font: 20px 'BabyDoll';
+    color: #222B5F;
+}
