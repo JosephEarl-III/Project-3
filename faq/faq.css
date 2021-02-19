@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body {
+    minq
+}
 .navbar {
     background-color: #222B5F !important;
 }
@@ -25,11 +27,10 @@
     color:white !important;
 }
 .navbar-nav {
-    background-color: orange;
+
    float: right;
 }
-#navbarResponsive {
-    background-color: blueviolet;
+
     margin-right: 0;
 }
 .active {
@@ -105,7 +106,7 @@ h3 {
     color: #222B5F;
 }
 p{
-    font: 20px 'BabyDoll';
+    font: 25px 'Helvetica Neue', serif;
     color: #222B5F;
 }
 .tab-wrap {
@@ -352,7 +353,7 @@ p{
     padding: 15px;
     font: 38px 'BabyDoll';
     color: #222B5F;
-    margin: -25px 0;
+    margin: -45px 0;
   }
 
   .tab2 + label {
@@ -379,7 +380,7 @@ p{
     padding: 15px;
     font: 38px 'BabyDoll';
     color: #222B5F;
-    margin: -25px 0;
+    margin: -45px 0;
   }
 
   .tab3 + label {
@@ -406,7 +407,7 @@ p{
     padding: 15px;
     font: 38px 'BabyDoll';
     color: #222B5F;
-    margin: -25px 0;
+    margin: -45px 0;
   }
   .tab1 + label:hover {
     background-color: #f9f9f9;
@@ -442,7 +443,7 @@ p{
   } 
   .containertab{
      margin-top: 10% ;
-     margin-bottom: 10% ;
+     margin-bottom: 1% ;
   }
 
   .textTab {
@@ -453,25 +454,20 @@ p{
 .img-center{
     display: block;
     margin: 0 auto;
+    max-width: 279px;
 }
-
+.img-center1 {
+    display: block;
+    margin: left;
+    max-width: 279px;
+}
 .tab-show{
       display: none;  
 }
 /* <---media query---> */
-@media (max-width:1114px){
- .tab-show{
-     display: inline-block;
- }
- .tabText {
-     font: 12px 'BabyDoll';
- }
-}
+
 
   @media (max-width:780px){
-    .image_section img:first-child{
-        display:none;
-    }
     .textTab {
         /* display: inline-block;
         margin-top: 25px !important;
@@ -514,4 +510,16 @@ p{
         padding: 17px;
         box-shadow: 0 2px 5px #222B5F;
     }
+    }
+    @media (max-width:1114px){
+        .tab-show{
+            display: inline-block;
+            font-size-adjust: inherit ;
+        }
+       }
+    @media (max-width:780px) {
+        .image_section img:first-child{
+            display:none;
+        }
+
     }
