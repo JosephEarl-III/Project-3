@@ -5,6 +5,11 @@
 /* CSS Document */
 body {
     width: 100%;
+    background-image: url("../images/blobsbackground@2x.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
 }
 .navbar {
     background-color: #222B5F !important;
@@ -96,15 +101,24 @@ p{
             transform: translateY(-3px);
     border-radius: 6px;
   }  */
+
+  #blobSection {
+	background-image: url("../images/blobsbackgroundv2@2x.png")
+	height: 1120px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
   .containertab{
      margin-top: 10% ;
      margin-bottom: 1% ;
   }
 
   .textTab {
-    display: inline-block;
-    margin-top: 25px;
-    margin-bottom: 25px;
+background-color: white;
+padding: 50px;
+border: 5px dashed #222B5F;
+border-radius: 25px;
 }
 .img-center{
     display: block;

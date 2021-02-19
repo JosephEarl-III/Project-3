@@ -413,7 +413,8 @@ p{
     background-color: #f9f9f9;
     box-shadow: 0 1px 0 #f4f4f4 inset;
     border-radius: 25px 25px 0 0;
-    border: 4px solid #F2CD00;
+    border: 4px dotted #F2CD00;
+    border-bottom: none;
   }
   .tab2 + label:hover {
     background-color: #f9f9f9;
@@ -440,7 +441,21 @@ p{
     -webkit-transform: translateY(-3px);
             transform: translateY(-3px);
     border-radius: 6px;
+    margin-top: 45px;
   } 
+  .content1 {
+    border: 10px dashed #F2CD00;
+    border-top: ;
+
+  }
+  .content2 {
+    border: 10px dashed #C7CC1A;
+    border-top: none;
+  }
+  .content3 {
+    border: 10px dashed #4AC4F3;
+    border-top: none;
+  }
   .containertab{
      margin-top: 10% ;
      margin-bottom: 1% ;
