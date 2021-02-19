@@ -65,10 +65,10 @@
 	</div>
 	<div class="row justify-content-center downloadButtons">
 		<div class="col-lg-2">
-		<button class="bg-dark text-light"><img src="images/appleicon light.png" alt="">Download iOS</button>
+		<button class="bg-dark text-light downloadButtons"><img src="images/appleicon light.png" alt="">Download on iOS</button>
 		</div>
 		<div class="col-lg-2">
-		<button class="bg-dark text-light"><img src="images/googleplay icon light.png" alt="">Download Google Play</button>	
+		<button class="bg-dark text-light downloadButtons"><img src="images/googleplay icon light.png" alt="">Download on Google Play</button>	
 		</div>
 	</div>
 	<div id="blobSection" class="flex-column">
@@ -82,17 +82,83 @@
 	<div id="lowerRiver" class="container-fluid">
 		<div class="row justify-content-center">
 		<div class="col-lg-2">	
-		<h1 class="whiteHeader">Features</h2>
+		<h1 class="whiteHeader">Features</h1>
 			</div>
 		</div>
-		<div class="row justify-content-center featureCards">
-		<div class="col-lg-3">
-			<img id="parentFeature" src="images/parent card.png" alt="">
+		<div class="row justify-content-center featureCards card-container">
+		<div class="col-lg-3 cardflip">
+			<img id="parentFeature" class="side" src="images/parent card.png" alt="">
+			<img src="images/parent feature card.png" class="side back" alt="">
 			</div>
-		<div class="col-lg-3">
-			<img id="childFeature" src="images/child card.png" alt="">
+		<div class="col-lg-3 cardflip">
+			<img id="childFeature" class="side" src="images/child card.png" alt="">
+			<img src="images/child feature card.png" class="side back" alt="">
 			</div>	
 		</div>
+		<div class="row justify-content-center featureButtons">
+		<div class="col-lg-2">
+		<button class="bg-dark text-light darkButton leftButton">See More Features</button>
+		</div>
+		<div class="col-lg-2">
+		<button class="bg-dark text-light darkButton rightButton">Security and Safety</button>	
+		</div>
+		</div>
+		<div class="reviews">
+		<div class="row justify-content-center">
+		<div class="col-lg-8 text-center reviewTitle">
+			<h2>What do they say about<br>
+			<span>HobbyHarbor?</span></h2>
+			</div>
+		</div>
+		<div class="row justify-content-around">
+		<div class="col-lg-2">
+			<div class="card" style="width: 18rem;">
+  			<img src="images/woman 1.png" class="card-img-top" alt="...">
+  			<div class="card-body">
+    		<p class="card-text">I so appreciate the option to keep an eye on what my sons do in the app through the Daily Report. It makes me feel much better about how they're spending their time.</p>
+			<img src="images/five stars.png" alt="">
+			<br><br>
+			<p class="card-text">-Joni C.</p>	
+  		</div>
+		</div>
+			</div>
+			<div class="col-lg-2">
+			<div class="card" style="width: 18rem;">
+  			<img src="images/man 1.png" class="card-img-top" alt="...">
+  			<div class="card-body">
+    		<p class="card-text">My son loves sharing his karate videos with his friends and schoolmates, and I love seeing him light up with energy as he finds ways to interact!</p>
+			<img src="images/five stars.png" alt="">
+			<br><br>
+			<p class="card-text">-Stephen Z.</p>	
+  		</div>
+		</div>
+			</div>
+			<div class="col-lg-2">
+			<div class="card" style="width: 18rem;">
+  			<img src="images/man 2.png" class="card-img-top" alt="...">
+  			<div class="card-body">
+    		<p class="card-text">My partner and I have been struggling to find quality activities for our daughter since quarantining. HobbyHarbor changed the game!</p>
+			<img src="images/five stars.png" alt="">
+			<br><br>
+			<p class="card-text">-Dane B.</p>	
+  		</div>
+		</div>
+			</div>
+			</div>	
+		</div>	
 	</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="images/HobbyHarbor logo white.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav footer">
+      <a class="nav-link" href="#">Privacy Policy </a>
+      <a class="nav-link" href="#">Terms of Services</a>
+      <a class="nav-link" href="#" ><img src="images/instagramlogo.png" alt=""></a>
+    </div>
+  </div>
+</nav>
 </body>
 </html>

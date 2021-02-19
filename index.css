@@ -3,6 +3,10 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'babydollregular', serif;
 }
+p {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 18px;
+}
 img {
 	width: inherit;
 }
@@ -15,9 +19,27 @@ img {
 }
 .nav-link {
 	color: white!important;
+	font-family: 'babydollregular', serif;
+	font-size: 28px;
+}
+.nav-link:hover{
+
+    text-decoration: underline  #C7CC1A;
 }
 .navbar-brand {
 	margin-left: -10px;
+}
+.nav-item {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.btn{
+    background-color:white;
+    font: 22px 'BabyDoll';
+    width: 258px;
+    border-radius: 25px;
+   margin-top: 5%;
+   border-color: white;
 }
 #river-top {
 	background-image: url("images/river border top.png");
@@ -44,7 +66,18 @@ img {
 	height: 229px;
 }
 .downloadButtons {
-	margin-top: 24px;
+	height: 104px;
+	border-radius: 10px;
+	text-align: left;
+	
+}
+.downloadButtons button {
+	background-color: #222B5F!important;
+}
+.downloadButtons img {
+	float: left;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 #blobSection {
 	background-image: url("images/blob section.png");
@@ -76,4 +109,55 @@ img {
 }
 #parentFeature:hover {
 	
+}
+.featureButtons {
+	margin-top: 128px;
+	margin-right: 48px;
+}
+.darkButton {
+	height: 59px;
+	width: 226px;
+	border-radius: 25px;
+	background-color: #222B5F!important;
+}
+.leftButton {
+	margin-right: 52px;
+}
+.rightButton {
+	margin-left: 24px;
+}
+.reviews {
+	margin-top: 250px
+}
+.reviewTitle {
+	margin-bottom: 40px;
+}
+.card-container {
+  height: 450px;
+  perspective: 600;
+  position: relative;
+  margin-right: 24px
+}
+.cardflip {
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+  margin-left: 24px;
+	margin-right: 24px;
+}
+.cardflip:hover {
+  transform: rotateY(180deg);
+}
+.cardflip .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.cardflip .back {
+  transform: rotateY(180deg);
+}
+.card {
+	border: none;
 }
