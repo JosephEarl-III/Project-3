@@ -139,7 +139,7 @@ a {
   height: 450px;
   perspective: 600;
   position: relative;
-  margin-right: 24px
+  margin-right: 24px;
 }
 .cardflip {
   height: 100%;
@@ -166,4 +166,20 @@ a {
 }
 .large {
 	font-size: 65px;
+}
+#scrollFade {
+	animation: bounceAction .7s infinite;
+}
+@keyframes bounceAction {
+	0% {
+		transform: translate3d(0px, -5px, 0px);
+		animation-timing-function: ease-in;
+	}
+	50% {
+		transform: translate3d(0px, 5px, 0px);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		transform: translate3d(0px, -5px, 0px);
+	}
 }
