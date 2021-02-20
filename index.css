@@ -13,6 +13,9 @@ img {
 a {
 	color: white!important;
 }
+button {
+	font-family: 'babydollregular';
+}
 .navbar {
 	background-color: #222B5F!important;
 }
@@ -54,6 +57,10 @@ a {
 }
 .hero {
 	padding-top: 48px;
+}
+.heroImg {
+	background-image: url("images/background.png");
+	border-radius: 100px;
 }
 .landingText {
 	margin-top: 72px
