@@ -11,21 +11,46 @@ body {
     background-size: cover;
     position: relative;
 }
+
 .navbar {
+	background-color: #222B5F!important;
+}
+.navbar-nav {
+	margin-left: auto;
+	margin-right: 0!important;
+}
+.nav-link {
+	color: white!important;
+	font-family: 'BabyDoll', serif;
+	font-size: 28px;
+}
+.nav-link:hover{
+
+    text-decoration: underline  #C7CC1A;
+}
+.navbar-brand {
+	margin-left: -10px;
+}
+.nav-item {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/* .navbar {
     background-color: #222B5F !important;
 }
 .navbar-collapse{
     justify-content: space-around !important;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+} */
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
-    height: 130px;
+    height: 130px; */
     /* padding-right: 15px;
     padding-left: 15px;
     margin-right: 33px !important;
     margin-left: 33px; */
 }
-.nav-link {
+/* .nav-link {
     font: 28px 'BabyDoll' ;
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -37,11 +62,10 @@ body {
 .nav-link:hover{
 
     text-decoration: underline  #C7CC1A;
-}
+} */
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -88,6 +112,15 @@ p{
     font: 25px 'Helvetica Neue', serif;
     color: #222B5F;
 }
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+}
 /* 
 .tab__content {
     padding: 10px 100px;
@@ -113,26 +146,34 @@ p{
      margin-top: 10% ;
      margin-bottom: 1% ;
   }
+  .containertab{
+    margin-top: 9% ;
+    margin-bottom: 10% ;
+ }
 
   .textTab {
 background-color: white;
 padding: 50px;
-border: 5px dashed #222B5F;
+border: 3px solid #C7CC1A;
 border-radius: 25px;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .img-center{
     display: block;
     margin: 0 auto;
-    max-width: 279px;
+    max-width: 430px;
+    padding-top: 30px;
 }
 .img-center1 {
     display: block;
     margin: left;
-    max-width: 279px;
+    max-width: 430px;
+    padding-top: 30px;
 }
 .tab-show{
       display: none;  
 }
+
 @media (min-width: 1200px){
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 95%;
