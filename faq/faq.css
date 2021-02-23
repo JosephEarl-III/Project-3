@@ -25,7 +25,7 @@
 }
 .nav-link {
 	color: white!important;
-	font-family: 'Babydoll', serif;
+	font-family: 'babydollregular', serif;
 	font-size: 28px;
 }
 .nav-link:hover{
@@ -75,7 +75,7 @@ li{
 }
 .btn-md{
     background-color:white;
-    font: 22px 'BabyDoll';
+    font: 22px 'babydollregular';
     width: 258px;
     border-radius: 25px;
    margin-top: 5%;
@@ -101,7 +101,7 @@ li{
 }
 .btn-lg {
     background-color: #222B5F;
-    font: 24px 'BabyDoll';
+    font: 24px 'babydollregular';
     width: 258px;
     border-radius: 36px;
    margin-top: 3%;
@@ -115,15 +115,15 @@ li{
     box-shadow: 0 2px 5px #222B5F;
 }
 h1 {
-    font: 55px 'BabyDoll' !important;
+    font: 55px 'babydollregular' !important;
     color: #222B5F; 
 }
 h2{
-    font: 68px 'Anja Eliane accent' !important;
+    font: 68px 'anja_eliane_accentnornal' !important;
     color: #222B5F; 
 }
 h3 {
-    font: 40px 'Anja Eliane accent';
+    font: 40px 'anja_eliane_accentnornal';
     color: #222B5F;
 }
 p{
@@ -284,7 +284,7 @@ p{
 
 .tab3 {
     display: none;
-    font: 38px 'BabyDoll';
+    font: 38px 'babydollregular';
     color: #222B5F;
   }
   .tab3:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
@@ -399,7 +399,7 @@ p{
     height: 100px;
     box-sizing: border-box;
     padding: 15px;
-    font: 38px 'BabyDoll';
+    font: 38px 'babydollregular';
     color: #222B5F;
     margin: -60px 0;
   }
@@ -426,7 +426,7 @@ p{
     height: 100px;
     box-sizing: border-box;
     padding: 15px;
-    font: 38px 'BabyDoll';
+    font: 38px 'babydollregular';
     color: #222B5F;
     margin: -60px 0;
   }
@@ -522,12 +522,12 @@ p{
         width: 301px;
     }
     h2{
-        font: 38px 'Anja Eliane accent' !important;
+        font: 38px 'anja_eliane_accentnornal' !important;
         color: #222B5F; 
         text-align: center;
     }
     h1 {
-        font: 25px 'BabyDoll' !important;
+        font: 25px 'babydollregular' !important;
         color: #222B5F; 
         text-align: center;
     }
@@ -552,7 +552,7 @@ p{
     }
     .btn-lg {
         background-color: #222B5F;
-        font: 24px 'BabyDoll';
+        font: 24px 'babydollregular';
         width: 150px;
         border-radius: 36px;
        margin-top: 5%;

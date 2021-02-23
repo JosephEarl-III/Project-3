@@ -21,7 +21,7 @@ body {
 }
 .nav-link {
 	color: white!important;
-	font-family: 'BabyDoll', serif;
+	font-family: 'babydollregular', serif;
 	font-size: 28px;
 }
 .nav-link:hover{
@@ -76,7 +76,7 @@ li{
 }
 .btn-md{
     background-color:white;
-    font: 22px 'BabyDoll';
+    font: 22px 'babydollregular';
     width: 258px;
     border-radius: 25px;
    margin-top: 5%;
@@ -105,7 +105,7 @@ background-color: #4AC4F3;
     background-color: white;
     }
 h1 {
-    font: 40px 'Anja Eliane accent';
+    font: 40px 'anja_eliane_accentnornal';
     color: #222B5F;
 }
 p{
